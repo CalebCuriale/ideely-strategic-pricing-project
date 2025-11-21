@@ -174,6 +174,10 @@ def main():
 
     print('\nAll examples completed successfully.')
 
+    # export dataframe to csv
+    df_filled.to_csv('filled_data.csv', index=False)
 
+    # read in csv
+    df_readback = pd.read_csv('filled_data.csv', parse_dates=['date'])
 if __name__ == '__main__':
     main()
