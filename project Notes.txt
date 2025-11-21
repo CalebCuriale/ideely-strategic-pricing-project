@@ -1,0 +1,2 @@
+get these values for 30 apps
+App name, creation_date, price_strategy, price_point, app_description
