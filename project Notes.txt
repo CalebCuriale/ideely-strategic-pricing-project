@@ -1,2 +1,9 @@
 get these values for 30 apps
 App name, creation_date, price_strategy, price_point, app_description
+
+how to activate the environment (for installing packages for ex. or running the whole script)
+.\.venv\Scripts\activate
+
+to install a package
+1. make sure you activate the environment
+2. pip install [package name] (dont include the brackets)
